@@ -1,12 +1,13 @@
-# Goose Finance
+# EBISWAP FINANCE
 
-https://goosedefi.com Feel free to read the code. More details coming soon.
+https://ebiswap.finance
+
+ Feel free to read the code. 
 
 ## Deployed Contracts / Hash
 
-### BSCMAINNET
+### POLYGONMAINNET
 
-- GoToken - https://bscscan.com/token/0xf952fc3ca7325cc27d15885d37117676d25bfda6
-- MasterChef - https://bscscan.com/address/0xe70E9185F5ea7Ba3C5d63705784D8563017f2E57
-- Timelock - https://bscscan.com/address/0x2Ef488DE034567e9B8D312928fD52812A242aB3A
-- MultiCall - https://bscscan.com/address/0x1ee38d535d541c55c9dae27b12edf090c608e6fb
+- EBI - https://polygonscan.com/address/0x0e25f83f02aaa2c15ddd53d7197066659683a9b0
+- MasterChef - https://polygonscan.com/address/0xaB2e038Ccde9A5b1e4A7bAE4290124DAd11e9888
+- Token Ownership transfer - ttps://polygonscan.com/tx/0x09aa8f72b289f4743ba07cfca0c0a218a84ef3cebe52011ee339f5f6ec630815
