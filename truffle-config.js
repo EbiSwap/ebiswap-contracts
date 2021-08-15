@@ -71,8 +71,8 @@ module.exports = {
       provider: () => new HDWalletProvider("33c77bca83fc629dc54f02fca02e0e93f40645476e7a7a3960d44dba2d279394", `https://polygon-mainnet.g.alchemy.com/v2/iK4L4-ihWCw92UigTI4-PzKgjMuRy6XQ`),
       network_id: 137,       // Ropsten's id
       networkId: 137,
-      gasLimit: 8000000,
-      gasPrice: 80000000000,
+      gasLimit: 1000000,
+      gasPrice: 40000000000,
       chain_id: 137,
       chainId: 137,
       // confirmations: 0,    // # of confs to wait between deployments. (default: 0)

@@ -8,19 +8,18 @@ module.exports = async function (deployer) {
 
   // Farms
   // await masterChef.add(300, "0x87314ac80724085797b66afc3402a734f0ae8c5b", 0, 1)
-  // USDC WETH
-  // EBI - MATIC LP (0% fee) (300x)
-  await masterChef.add(30000, "0x0", 0, 1) // TODO: add address
   // EBI - USDC LP (0% fee) (300x)
-  await masterChef.add(30000, "0x0", 0, 1) // TODO: add address
+  await masterChef.add(30000, "0xd61A86d06ce30fb0bC479355bF7cc29f6a856128", 0, 1) // TODO: add address
+  // EBI - MATIC LP (0% fee) (300x)
+  await masterChef.add(30000, "0xc87524fbce8b8dc727fa43e066cd91286fae9632", 0, 1) // TODO: add address
   // USDC - MATIC LP (4% fee) (35x)
   await masterChef.add(3500, "0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827", 400, 1)
   // USDC - WETH LP (4% fee) (35x)
-  await masterChef.add(3500, "0x853ee4b2a13f8a742d64c8f088be7ba2131f670d", 400, 1) // TODO: add address
+  await masterChef.add(3500, "0x853ee4b2a13f8a742d64c8f088be7ba2131f670d", 400, 1)
 
   // Pools
   // EBI (0% fee) (80x)
-  await masterChef.add(8000, "0x0", 0, 1) // TODO: add address
+  await masterChef.add(8000, "0x0E25F83F02aaA2C15ddD53D7197066659683a9b0", 0, 1) // TODO: add address
   // WMATIC (4% fee) (32x)
   await masterChef.add(3200, "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270", 400, 1)
   // WETH (4% fee) (35x)
